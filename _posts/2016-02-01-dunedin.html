@@ -24,6 +24,9 @@ classes:
     - name: R
       id: id2
       blurb: The R language provides a flexible and powerful environment for data analysis and visualisation.  This workshop will introduce the R language and will teach you some key programming skills.
+- name: Python
+      id: idx
+      blurb: The Python language is a popular versatile programming langauge praised for it's readability and <a href='http://c2.com/cgi/wiki?PythonPhilosophy'>design philosophy</a>
     - name: Git
       id: idn
       blurb: Version control is the lab notebook of the digital world - it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on.
@@ -31,7 +34,10 @@ classes:
    tools:
     - name: ggplot2 for data visualisation
       id: id3
-      blurb: The popular ggplot2 package for R provides a powerful means to create compelling data visualisations.  Come along and learn how to use ggplot2 to make your data look even more beautiful. 
+      blurb: The popular ggplot2 package for R provides a powerful means to create compelling data visualisations.  Come along and learn how to use ggplot2 to make your data look even more beautiful.
+    - name: data manipulation in R
+      id: idb
+      blurb: Using Hadley Wickham's tidyr, reshape, and dplyr packages to manipulate data. 
     - name: Reproducible research - concepts and practise
       id: id4
       blurb: Reproducibility is a key component of  science, and one that is becoming even more critical as we analyse ever-growing amounts of data using increasingly complex tools.  Come along to learn about the key concepts of reproducible research, and gain some experience with tools that will help you put these ideas into practise. 
@@ -47,6 +53,21 @@ classes:
     - name: Advanced R programming
       id: id7
       blurb: Can't get enough of R?  This focused workshop will help turn your commands into scripts, your scripts into functions, and your functions into packages - what more could you want? 
+    - name: How do I use this? 
+      id: idy
+      blurb: Domain-specfic tools and extensions will be offered depending on community interest and availability of instructors (data carpentry instructor training in progress). Suggestions for or offers of domain expertise welcome in areas including life sciences, physical sciences, digital humanities, economics or finance.
+    - name: High Performance Computing with  NeSI
+      id: idz
+      blurb: The <a href='http://nesi.org.nz/'>New Zealand eScience Infrastructure</a> have been a crucial to the development of this conference. They also offer High-Performance Computing resources to institutions across the country. Here we'll show you how to sign up and use their facilities to extend the skills covered in our workshops. Besides, Supercomputers are cool.
+    - name: HackyHour and Projects
+      id: ida
+      blurb: Want to put your newfound digital toolkit to the test? Come along to HackyHour and our experts will help you troubleshoot any problems you have. If we can fix it, we'll probably know someone who can. On the last day you can attempt a mini-Project of your own so if you come up with a problem in your field that you think programming could help with come along and we'll get you started. We're also encouraging you to take these skills home with you and start The <a href='https://www.fmhs.auckland.ac.nz/en/faculty/about/news-and-events/events/2015/3/26/hacky-hour-.html'>HackyHour</a> or The <a href='https://mozillascience.github.io/studyGroupHandbook/'>Mozilla Study Group</a> of your own to help each other. 
+    - name: SQL and databases
+      id: idc
+      blurb: SQLite is a widely used tool to create and query databases.
+    - name: LaTeX/Authorea/Rmd for academic writing
+      id: idd
+      blurb: Every struggled with putting equations or code into your writing? Or simply grappling with a large document? LaTeX and markdown are versatile tools to do everything from embedding your code in slideshows, or websites, to automating the referencing and formatting of a thesis or journal article. Conforming to university or journal formatting standards ca be a thing of past. Download their template and you're off.
 
 schedule: Each day at ResBaz will be split into morning and afternoon events. Following a Key Story from one of our exciting speakers, the mornings will consist of introductory <a href='https://software-carpentry.org/'>Software Carpentry</a> lessons, alongside intermediate and advanced topics for those who are already familar with the introductory material. Afternoon sessions will begin with a second Key Story, followed by a more informal collection of activities, including focussed workshops, dicussion sessions, and lightning research presentations.  At the end of each afternoon we will reconvence for a discusion session, to help set the scene for an evening of fun social and networking activities. <br><br>A more detailed timetable will be displayed once more sessions are confirmed.<br><br>
 
@@ -54,7 +75,7 @@ days:
  - day: Tuesday February 2
    sessions:
     - title: Welcome and Key Story 1
-    - title: Unix Shell (Software Carpentry) + Advanced Shell 
+    - title: Unix Shell (Software Carpentry) + Intermediate R
     - title: LUNCH
     - title: Key Story 2
     - title: Mini-workshops and informal discussions
@@ -63,7 +84,7 @@ days:
  - day: Wednesday February 3
    sessions:
     - title: Key Story 3
-    - title: R (Software Carpentry) + Intermediate R
+    - title: R (Software Carpentry) + Advanced R
     - title: LUNCH
     - title: Key Story 4
     - title: Mini-workshops and informal discussions
@@ -77,6 +98,95 @@ days:
     - title: Key Story 6
     - title: Mini-workshops and informal discussions
     - title: Discussion session and wrap-up
+
+<table style="width:100%">
+  <tr>
+    <td>Day 1</td>
+    <td>Day 1</td>		
+    <td>Day 2</td>
+    <td>Day 2</td>		
+    <td>Day 3</td>	
+    <td>Day 3</td>
+  </tr>  <tr>
+    <td>Keynote 1</td>
+    <td></td>		
+    <td>Keynote 3</td>
+    <td></td>		
+    <td>Keynote 5</td>
+  </tr>
+  <tr>
+    <td>SWC Shell</td>
+    <td>Advanced Shell</td>
+    <td>SWC R (Intro)</td>		
+    <td>Advanced R</td>
+    <td>SWC Git/GitHub (Intro)</td>		
+    <td>Python</td>
+  </tr>
+    <tr>
+    <td>Morning Tea</td>
+    <td> </td>
+    <td>Morning Tea</td>
+    <td> </td>
+    <td>Morning Tea</td>
+    <td> </td>
+  <tr>
+  <tr>
+    <td>SWC Shell</td>
+    <td>Advanced R</td>
+    <td>SWC R (Intro)</td>		
+    <td>Advanced R</td>
+    <td>SWC Git/GitHub (Intro)</td>		
+    <td>Advanced Python</td>
+  </tr>
+  <tr>
+    <td>Lunch</td>
+    <td> </td>
+    <td>Lunch</td>
+    <td> </td>
+    <td>Lunch</td>
+    <td> </td>
+  <tr>
+    <td>R ggplot </td>
+    <td>NeSI/HPC</td>
+    <td>R dplyr</td>		
+    <td>LaTex / Authorea</td>
+    <td>R projects (Git)</td>		
+    <td>HackyHour Projects</td>
+  </tr>
+  <tr>
+    <td>Applications: Economics/Finance</td>
+    <td>Lightning Talks</td>
+    <td>Applications: Phyics/Chem</td>		
+    <td>Lightning Talks</td>
+    <td>Advanced Git (branches)</td>		
+    <td>SQL</td>
+  </tr>
+    <tr>
+    <td>Afternoon Tea</td>
+    <td> </td>
+    <td>Afternoon Tea</td>
+    <td> </td>
+    <td>Afternoon Tea</td>
+    <td> </td>
+  <tr>
+  <tr>
+    <td>R Shiny</td>
+    <td>Social Media</td>
+    <td>R knitr/Rmd</td>		
+    <td>HackyHour</td>
+    <td>Panel</td>		
+    <td></td>
+  </tr>
+  <tr>
+    <td>Applications: Life Science</td>
+    <td>Lightning Talks</td>
+    <td>Applications: Digital Humanities</td>		
+    <td>Lightning Talks</td>
+    <td>Wrap up</td>		
+    <td></td>
+  </tr>
+  </tr>
+</table>
 
 speakers:
  - name:
